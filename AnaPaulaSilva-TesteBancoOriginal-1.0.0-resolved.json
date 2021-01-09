@@ -130,16 +130,17 @@
     "schemas": {
       "ClientItem": {
         "required": [
+          "cep",
           "cpf",
           "email",
-          "endereco",
-          "name"
+          "name",
+          "rua"
         ],
         "type": "object",
         "properties": {
           "cpf": {
-            "type": "string",
-            "format": "uuid"
+            "type": "integer",
+            "format": "000111111-11"
           },
           "name": {
             "type": "string",
@@ -151,9 +152,8 @@
             "example": "ana@gmail.com"
           },
           "cep": {
-            "type": "string",
-            "format": "00000-000",
-            "example": "37000-000"
+            "type": "integer",
+            "format": "00000-000"
           },
           "rua": {
             "type": "string",
