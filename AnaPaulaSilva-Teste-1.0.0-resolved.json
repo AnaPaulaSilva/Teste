@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Teste banco Original",
+    "title": "Teste",
     "description": "Cadastro e consulta de cliente",
     "contact": {
       "email": "ana.2892.silva@gmail.com"
